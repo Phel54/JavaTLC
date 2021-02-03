@@ -6,7 +6,7 @@ public class Question2 {
 
     public static void main(String[] args) {
         Random rand = new Random();
-        int nextRandom = rand.nextInt(100);
+        int nextRandom = rand.nextInt(101);
         if (nextRandom == 0) {
             System.out.println("This random number is frozen " + nextRandom);
         } else if (nextRandom <= 14) {
